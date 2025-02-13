@@ -1,0 +1,9 @@
+{
+  "name": "oms-products-source",
+  "config": {
+    "connector.class": "org.apache.kafka.connect.file.FileStreamSourceConnector",
+    "tasks.max": "1",
+    "file": "/mnt/products.json",
+    "topic": "products"
+  }
+}
